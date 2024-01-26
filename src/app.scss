@@ -1,0 +1,17 @@
+.app
+{
+    .link {
+
+        color: inherit;
+        text-decoration: none;
+
+    }
+
+    button {
+        transition: 0.35s all;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+}
